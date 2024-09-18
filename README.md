@@ -15,13 +15,13 @@ The objective of this project was to create a sample Network that showed the AIM
 
 1) Software and hardware Requirements for the entire project
 
-#Hardware#
+*Hardware*
 - Cisco Router (1)
 - Cisco switches (2)
 - Ethernet cables (6)
 - Laptops (4)
 
-#Software#
+*Software*
 - Cisco Packet tracer
 - Webserver Software
 - DNS server software
