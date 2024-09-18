@@ -30,8 +30,18 @@ The objective of this project was to create a sample Network that showed the AIM
 
 2) Creating a LAN - IP Address set up
 
-When creating a LAN, you will have to create unique IP Addresses within the subnet range that we define. For LAN 1 we will be using 192.168.0.0/26 and for LAN 2 172.16.0.0/24
-- 
+- When creating a LAN, you will have to create unique IP Addresses within the subnet range that we define. For LAN 1 we will be using 192.168.0.0/26 and for LAN 2 172.16.0.0/24. The first step in this process is determining the Subnet Range and available IP Range (below)
+*LAN 1*
+- SUBNET MASTK - 255.255.255.192
+- Available IP Range - 192.168.0.2 to 192.168.0.62 (192.168.0.1 is reserved for the router AKA the default gateway)
+
+*LAN 2*
+- SUBNET MASTK - 255.255.255.192
+- Available IP Range - 192.168.0.2 to 192.168.0.62 (192.168.0.1 is reserved for the router AKA the default gateway)
+
+Next you have to Assign static IPs to the computers along with the appropriate default gateway
+
+
 
 3) Connect devices to switch and make sure they can communicate
 
