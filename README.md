@@ -13,7 +13,7 @@ The objective of this project was to create a sample Network that showed the AIM
 3) Educational Environments - This framework can be used in class rooms to either set up a basic network or teach students how to set up a basic one
 4) Small Businesses - This framework provides a step by step guide on how to create and connect two separate lans together for business owners who might not have a lot of experience in this field
 
-- Detailed Step by Step Set up
+### Detailed Step by Step Set up
 
 1) Software and hardware Requirements for the entire project
 
