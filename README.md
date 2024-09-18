@@ -4,7 +4,7 @@ Mini Project 1 - Creating and describing a Network for Cloud Computing
 ## Step by Step Config
 - Objectives
 
-The objective of this project was to create a sample Network that showed the AIMS/ISBA Lab and how it is connected to the Datacenter for the Business College
+The objective of this project was to create two separate LANS that can communicate across the WAN and with each other
 
 - Use Cases for This System
 
