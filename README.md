@@ -1,4 +1,4 @@
-# Mini-Project-1
+## Mini-Project-1
 Mini Project 1 - Creating and describing a Network for Cloud Computing
 
 ## Step by Step Config
@@ -13,21 +13,32 @@ The objective of this project was to create a sample Network that showed the AIM
 
 - Detailed Step by Step Set up
 
-1) Software and hardware
+1) Software and hardware Requirements for the entire project
 
-2) Creating a LAN
+#Hardware#
+- Cisco Router (1)
+- Cisco switches (2)
+- Ethernet cables (6)
+- Laptops (4)
 
-3) Connect devices to switch and make sure they can communicate
+#Software#
+- Cisco Packet tracer
+- Webserver Software
+- DNS server software
 
-4) Set up a WebServer
+3) Creating a LAN
 
-5) Set up a DNS
+4) Connect devices to switch and make sure they can communicate
 
-6) Make sure that you can access the webpage through the domain name
+5) Set up a WebServer
 
-7) Connect to the router
+6) Set up a DNS
 
-8) Communicate ith the other lan
+7) Make sure that you can access the webpage through the domain name
+
+8) Connect to the router
+
+9) Communicate ith the other lan
 
 
 ## FAQ
