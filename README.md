@@ -8,8 +8,8 @@ The objective of this project was to create a sample Network that showed the AIM
 
 - Use Cases for This System
 
-The main use cases for this system will be showing how to connect a lab or a classroom to a datacenter
-Going further in deatil, you can see how to set up IP addresses, default gateways, DNS Server, Webservers and more to make the system more in detail.
+1) The first use case would be for a Network administator to better understand how everything is connected together between the lab and the datacenter if they have to troubleshoot or make a new addition to the system
+2) The second use case would be that this system now has a design for a Network Administrator to recreate it. Should there be another lab (such as the bloomberg lab) they would be able to understand the necessary links quicker than if they did not have a framework
 
 - Detailed Step by Step Set up
 
