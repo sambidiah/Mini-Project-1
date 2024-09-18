@@ -15,9 +15,10 @@ The objective of this project was to create a sample Network that showed the AIM
 
 1) Creating two LANS (Local Area Networks)
 The first step for setting up this net work is to create two separate LANS and make sure that you can communicate in each separate one with other devices on the respective networks
-Breaking it up into two, we have the AIMS Lab and then the Hilton Data Center
+We will refer to the two separate ones as LAN 1 and LAN 2
 
-AIMS LAB
+The initial set up for both of the LANS is the same.
+
 First, 
  
 - Key Configuration Decisions
