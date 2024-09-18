@@ -13,6 +13,9 @@ The objective of this project was to create a sample Network that showed the AIM
 
 - Detailed Step by Step Set up
 
+1) Creating two LANS (Local Area Networks)
+-nwiw
+   
 - Key Configuration Decisions
 
 - Trouble shooting Tips
