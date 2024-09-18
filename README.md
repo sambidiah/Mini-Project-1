@@ -74,6 +74,7 @@ The objective of this project was to create two separate LANS that can communica
     - Have one of the computers write this code
       - ping (other computer's new IP address)
     - if the connection is successful, you'll get a reponse from the terminal
+
 **IF IT DOES NOT REPSOND**
   - Check to make sure that ethernet cables are properly connected
   - Check to make sure you inputted the right IP addresses
