@@ -30,7 +30,7 @@ The objective of this project was to create a sample Network that showed the AIM
 - Webserver Software (MAMP)
 - DNS server software (NAMO)
 
-2) Connect devices to switch and make sure they can communicate
+2) Connect devices to switch
 
 *Objective of this step* - Confirm that you are able to commincate with devices on your LAN
 
@@ -65,15 +65,29 @@ The objective of this project was to create a sample Network that showed the AIM
   - **Subnet Mask** Manually input the subnet mark for the LAN you are using
   - **Router** (CHECK THIS) Enter the first (0.1) IP address for the router interface
 
-4) Set up a WebServer
+4) Ensure Communication Across the LAN
 
-5) Set up a DNS
+*Objective of this step* - Making sure that you can communicate across the individual LANS with the other computer that is a part of it
 
-6) Make sure that you can access the webpage through the domain name
+  - Once all devices are connected to the LAN Physically, you have to test to make sure that these computers can send data back and forth to each other
+    - Open terminal on Mac
+    - Have one of the computers write this code
+      - ping (other computer's new IP address)
+    - if the connection is successful, you'll get a reponse from the terminal
+**IF IT DOES NOT REPSOND**
+  - Check to make sure that ethernet cables are properly connected
+  - Check to make sure you inputted the right IP addresses
+  - Ensure the switch is turned on 
 
-7) Connect to the router
+5) Set up a WebServer
 
-8) Communicate ith the other lan
+6) Set up a DNS
+
+7) Make sure that you can access the webpage through the domain name
+
+8) Connect to the router
+
+9) Communicate ith the other LAN
 
 
 ## FAQ
