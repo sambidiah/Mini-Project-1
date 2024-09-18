@@ -26,19 +26,19 @@ The objective of this project was to create a sample Network that showed the AIM
 - Webserver Software
 - DNS server software
 
-3) Creating a LAN
+2) Creating a LAN
 
-4) Connect devices to switch and make sure they can communicate
+3) Connect devices to switch and make sure they can communicate
 
-5) Set up a WebServer
+4) Set up a WebServer
 
-6) Set up a DNS
+5) Set up a DNS
 
-7) Make sure that you can access the webpage through the domain name
+6) Make sure that you can access the webpage through the domain name
 
-8) Connect to the router
+7) Connect to the router
 
-9) Communicate ith the other lan
+8) Communicate ith the other lan
 
 
 ## FAQ
