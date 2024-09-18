@@ -82,7 +82,32 @@ The objective of this project was to create two separate LANS that can communica
 
 5) Set up a WebServer
 
+*Objective of this step* - Configuring one laptop to function as the webserver
+
+  - Install MAMP and open it in the application folder
+  - Select Nginx as the web server
+  - Update the Nginx port from 8888 to 80
+    - Preferences > Ports > Nginx Port: 80 > OK
+  - Click Start
+    - Create index.html in the directory for the Mac operating system
+      - /Applications/MAMP/htdocs/index.html
+  - Using a text/code editor, replace the index.html with
+    - "Welcome to Capstone Consulting ##"
+
+**Trouble Shooting**
+
+  - Disable firewalls
+  - Or add a firewall to allow ICMP 
+
 6) Set up a DNS
+
+*Objective of this step* - Create a server that maps domain names to IP Addresses. This way users can access a website by a domain name (I.E. example.com) instead of having to manualy type the IP address
+
+  - Configure and install NAMO (local DNS server)
+  - Click + to add a new host
+  - Create a host name
+    - example.com
+  - IPv4: Ip address of the laptop now designated as a DNS server
 
 7) Make sure that you can access the webpage through the domain name
 
