@@ -13,17 +13,22 @@ The objective of this project was to create a sample Network that showed the AIM
 
 - Detailed Step by Step Set up
 
-1) Creating two LANS (Local Area Networks)
-The first step for setting up this net work is to create two separate LANS and make sure that you can communicate in each separate one with other devices on the respective networks
-We will refer to the two separate ones as LAN 1 and LAN 2
+1) Software and hardware
 
-The initial set up for both of the LANS is the same.
+2) Creating a LAN
 
-First, 
- 
-- Key Configuration Decisions
+3) Connect devices to switch and make sure they can communicate
 
-- Trouble shooting Tips
+4) Set up a WebServer
+
+5) Set up a DNS
+
+6) Make sure that you can access the webpage through the domain name
+
+7) Connect to the router
+
+8) Communicate ith the other lan
+
 
 ## FAQ
 
