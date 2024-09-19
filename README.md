@@ -111,12 +111,49 @@ The objective of this project was to create two separate LANS that can communica
 
 7) Make sure that you can access the webpage through the domain name
 
+*Objectives of this step* - Make sure that you can access the webpage, both from IP address as well as the domain name 
+
+   - Open a browser and first input the IP address to make sure you can access it through IP (on the webserver)
+   - After confirming this, see if you can (on the webserver) type in the domain name that you assigned and make sure you can access this
+
 8) Connect to the router
 
-9) Communicate ith the other LAN
+*Objective of this step* - set the router so that the LANs can communicate with each other
 
+  - The steps for this section of the process are as follows
+    - Power on the router > connect the router to both switches (creating the WAN) > add an IP to the router (default gateway)
+   
+*Hardware needed and how to use it*
+  - Conect the router to a power supply
+  - Connect ethernet cables from the switch to the router's GigabitEthernet 0/0 for LAN 1
+  -  Connect ethernet cables from the switch to the router's GigabitEthernet 0/1 for LAN 2
+  -  Ensure the router is powered on and that the switches are connected properly
+   
+**For MAC Configuration of the Router**
+
+  - Install the driver for Serial Adapter
+  - Open terminal and 
+
+9) Communicate with the other LAN
+
+*Objectives of this steps* - Test communication and make sure everything is set up correctly
+
+  - First, using a computer in LAN 1, try to ping a computer in LAN 2
+  - If you can ping them, using LAN 2, try to access the webpage (using domain name) that LAN 1 set up
+  - If you can do this step, then congrats! you've finished
+  - If you have not, please review the steps (primarily step 8)
 
 ## FAQ
 
+  1) Unable to ping between devices
+  2) Webpage not loading
+  3) No DNS resolution
+  4) .
+  5) .
+  6) .
+  7) .
+  8) .
+  9) .
+  10) 
 
 ## Retrospective
