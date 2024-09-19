@@ -51,10 +51,12 @@ The objective of this project was to create two separate LANS that can communica
 *LAN 1*
   - SUBNET MASTK - 255.255.255.192
   - Available IP Range - 192.168.0.2 to 192.168.0.62 (192.168.0.1 is reserved for the router AKA the default gateway)
+  - the /26 subnet allows for 62 usable IP addresses which increases network efficiency since its a smaller LAN
 
 *LAN 2*
   - SUBNET MASTK - 255.255.255.0
   - Available IP Range - 172.16.0.2 to 172.16.0.254 (172.16.0.1 is reserved for the router AKA the default gateway)
+  - the /24 allows for 254 IP addresses, giving experience working with a larger LAN as well
 
 *Assigning Static IP Addresses (On MAC)*
   - Go to System Preferences > Network
@@ -64,6 +66,7 @@ The objective of this project was to create two separate LANS that can communica
   - **IP Address** Manually input the nextmost available IP in the Range of the LAN that you are using
   - **Subnet Mask** Manually input the subnet mark for the LAN you are using
   - **Router** (CHECK THIS) Enter the first (0.1) IP address for the router interface
+  - **Why static IP** - we want to ensure that we don't accidentally have the same IP on two different devices
 
 **4) Ensure Communication Across the LAN**
 
@@ -138,14 +141,17 @@ The objective of this project was to create two separate LANS that can communica
       - Open the terminal > enter Global Configuration Mode and enter the following code
       -*LAN 1*
         - Router(config)# interface GigabitEthernet0/0
+          - First available port for cable orginization and consistency
         - Router(config-if)# ip address 192.168.0.1 255.255.255.192
         - Router(config-if)# no shutdown
       - *LAN 2*
         - Router(config)# interface GigabitEthernet0/1
+          - Second available port for cable orginization and consistency
         - Router(config-if)# ip address 172.16.0.1 255.255.255.0
         - Router(config-if)# no shutdown
   - Set port status on the router to "on"
     - You can test this in Step 9
+  
       
 **Configuring the gateways**
 
@@ -162,17 +168,23 @@ The objective of this project was to create two separate LANS that can communica
   - If you can do this step, then congrats! you've finished
   - If you have not, please review the steps (primarily step 8)
 
+
+**CONCLUSION**
+
+Congrats! You've successfully created a WAN that can communicate!
+
 ## FAQ
 
-  1) Unable to ping between devices
-  2) Webpage not loading
-  3) No DNS resolution
-  4) .
-  5) .
-  6) .
-  7) .
-  8) .
-  9) .
-  10) 
+  1) Unable to ping between LANS
+     - Verify that you can communicate to the default gateway and if you can check firewall settings if you have any 
+  2) How can I add more devices
+     - Follow the same steps with assigning a unique IP as well as connecting it to a switch
+  3) How do I add a new LAN?
+     - Follow the previous steps to create the lan then connect it to the GigabitEthernet 0/2 (or the next available one) then continue with the following steps for assigning a default gateway
+  4) How can I troubleshoot a slow/unstable connection
+     - use the traceroute command to identify where the delay occurs and then check cables for any damages
+  5) How do I make sure all of the hardware is going to work before purchasing it?
+     - Utilize Cisco Packet tracer to test hardware and ensure that it is able to connect and send packets of information to other devices.
+ 
 
 ## Retrospective
