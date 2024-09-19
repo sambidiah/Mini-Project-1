@@ -73,6 +73,8 @@ The objective of this project was to create two separate LANS that can communica
   - **Router** (CHECK THIS) Enter the first (0.1) IP address for the router interface
   - **Why static IP** - we want to ensure that we don't accidentally have the same IP on two different devices
 
+![image](https://github.com/user-attachments/assets/f8ed2f87-6565-4b7e-a51c-bae6c2f42fce)
+
 **4) Ensure Communication Across the LAN**
 
 *Objective of this step* - Making sure that you can communicate across the individual LANS with the other computer that is a part of it
@@ -82,6 +84,8 @@ The objective of this project was to create two separate LANS that can communica
     - Have one of the computers write this code
       - ping (other computer's new IP address)
     - if the connection is successful, you'll get a reponse from the terminal
+
+![image](https://github.com/user-attachments/assets/98b1f3b9-9f67-42b5-88f4-b541b378bf05)
 
 **IF IT DOES NOT REPSOND**
   - Check to make sure that ethernet cables are properly connected
@@ -172,6 +176,8 @@ The objective of this project was to create two separate LANS that can communica
   - If you can ping them, using LAN 2, try to access the webpage (using domain name) that LAN 1 set up
   - If you can do this step, then congrats! you've finished
   - If you have not, please review the steps (primarily step 8)
+
+![image](https://github.com/user-attachments/assets/4a0e6fcb-3b63-4c90-95fb-7e70227c8ecb)
 
 
 **CONCLUSION**
