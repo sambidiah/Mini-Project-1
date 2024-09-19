@@ -191,3 +191,17 @@ Congrats! You've successfully created a WAN that can communicate!
  
 
 ## Retrospective
+
+This was definitely a very unique project and process, not only in creating the network on packet tracer, but also actually physically setting up the network and doing all of the steps that I wrote about. While I enjoyed it a lot, I did run into a lot of challenges and issues.
+
+First, building the network in Cisco Packet Tracer was very easy. I felt as if I knew everything that was going on and moving from digital to physical I would have zero issues, however my group and I quickly discovered just how wrong we were. We constantly ran into firewall issues, device setting issues, as well as connection issues. What I realized is just how important it is to make sure you are all on the same page with your team and you are going step by step. We did all talk about just how much quicker we got at setting up the physical network after we got a few repetitions in. The first time it felt like it took us nearly an hour just to send a ping across a LAN, however towards the end it became second nature to us.
+
+The most glaring issue that we faced was the fact that certain devices had a firewall or some setting turned on that did not allow us to progress past making sure we can communicate across the LAN. We struggled with the help of our professor to figure out how to fix this however we just decided to try another device. This forced us to stay very organized and use a lot of details when describing what IP address belongs to what computer. Thankfully, with the provided google sheet, we were able to keep track and keep a long. 
+
+I gained a lot of skills in the past 4 weeks and was surprised with just how much I learned. First, I had no idea how any part of the internet worked besides routers were important and modems existed. Throughout these past 4 weeks I not only have been learning about something I have been curious about, I’ve also learned exactly how it is physically connected and just how many parts go into building the internet.
+
+I think the most relevant example of this is yesterday I was at the Loft after finance society meeting with a few professors and students. Above the loft there is a WAP (wireless access point) and I started talking about what the WAP is, how it's connected to a switch which is creating a LAN, and that LAN is connected to a router which is how we can access the internet. I was shocked with just how well I was able to explain everything and just how interesting it continues to be to me. 
+
+I think that for next time, I would have liked to spend more time trying to communicate across the WAN instead of just setting up the LAN. While we were very confident in setting up our own network, we felt that if we had one more run through creating a WAN and trying to set up an intermediary we would have benefited a lot from that. I would like to try to connect with two separate groups instead of just one. That way we can be confident that we can recreate it with multiple different people.
+
+Many of the other questions I had about this project were answered in the FAQ and throughout the write up. In the future, I hope to continue to build off of this to deepen my understanding, not just how to do it on MACs but how data centers are created, how to do it on Windows and other devices, but lastly knowing that I can find a solution to these issues or atleast know where to start.
