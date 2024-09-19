@@ -29,6 +29,7 @@ The objective of this project was to create two separate LANS that can communica
 - Cisco Packet tracer - for simulation
 - Webserver Software (MAMP)
 - DNS server software (NAMO)
+![image](https://github.com/user-attachments/assets/2b9ce312-f76e-413f-bbc8-eaa336f906ce)
 
 **2) Connect devices to switch**
 
