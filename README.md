@@ -135,6 +135,12 @@ The objective of this project was to create two separate LANS that can communica
   - The steps for this section of the process are as follows
     - Power on the router > connect the router to both switches (creating the WAN) > add an IP to the router (default gateway)
    
+![image](https://github.com/user-attachments/assets/3c6cfaf3-9f25-4261-843c-7a2329c0f37b)
+
+![image](https://github.com/user-attachments/assets/9f2a2c7e-d064-4591-9ccc-c9b9efc5dc68)
+
+![image](https://github.com/user-attachments/assets/5a63b2ba-5e06-455b-9ca9-314aae45a6de)
+   
 *Hardware needed and how to use it*
   - Conect the router to a power supply
   - Connect ethernet cables from the switch to the router's GigabitEthernet 0/0 for LAN 1
