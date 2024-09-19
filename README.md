@@ -185,6 +185,9 @@ Congrats! You've successfully created a WAN that can communicate!
      - use the traceroute command to identify where the delay occurs and then check cables for any damages
   5) How do I make sure all of the hardware is going to work before purchasing it?
      - Utilize Cisco Packet tracer to test hardware and ensure that it is able to connect and send packets of information to other devices.
+  6) How do I stay organized if it continues to expand?
+     - This is where cable managment and labeling comes into play, I recommend each cable goes to the **NEXT** most available port
+     - I.E, if 0 and 1 are taken go to port 2 and lable it, this way it's easier to follow the physical set up for other network engineers
  
 
 ## Retrospective
