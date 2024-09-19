@@ -132,7 +132,26 @@ The objective of this project was to create two separate LANS that can communica
 **For MAC Configuration of the Router**
 
   - Install the driver for Serial Adapter
-  - Open terminal and 
+  - To configure the router, you need to access the router's CLI
+    - To do this, you have to connect to the console port using a terminal software (I.E. PuTTy)
+    - Assign IP addresses to the router
+      - Open the terminal > enter Global Configuration Mode and enter the following code
+      -*LAN 1*
+        - Router(config)# interface GigabitEthernet0/0
+        - Router(config-if)# ip address 192.168.0.1 255.255.255.192
+        - Router(config-if)# no shutdown
+      - *LAN 2*
+        - Router(config)# interface GigabitEthernet0/1
+        - Router(config-if)# ip address 172.16.0.1 255.255.255.0
+        - Router(config-if)# no shutdown
+  - Set port status on the router to "on"
+    - You can test this in Step 9
+      
+**Configuring the gateways**
+
+  - This is the last step that is needed on the end devices
+  - Configure each device and set the router's IP as the **Default Gateway** for that Subnet
+  - This allows traffic to be resolved across networks
 
 **9) Communicate with the other LAN**
 
