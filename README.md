@@ -15,7 +15,7 @@ The objective of this project was to create two separate LANS that can communica
 
 ### Detailed Step by Step Set up
 
-1) Software and hardware Requirements for the entire project
+**1) Software and hardware Requirements for the entire project**
 
 *Objective of this step* - Making sure that you have all the required hardware and software ready and able to be installed
 
@@ -30,7 +30,7 @@ The objective of this project was to create two separate LANS that can communica
 - Webserver Software (MAMP)
 - DNS server software (NAMO)
 
-2) Connect devices to switch
+**2) Connect devices to switch**
 
 *Objective of this step* - Confirm that you are able to commincate with devices on your LAN
 
@@ -43,7 +43,7 @@ The objective of this project was to create two separate LANS that can communica
   - Plug the other end into any available port on the switch (ideally make sure they are in order)
     - Repeat this for any following device that needs to be connected to the LAN   
 
-3) Creating a LAN - IP Address set up
+**3) Creating a LAN - IP Address set up**
 
 *Objective of this step* - Create two distinct Private IP Addresses to use later on
 
@@ -65,7 +65,7 @@ The objective of this project was to create two separate LANS that can communica
   - **Subnet Mask** Manually input the subnet mark for the LAN you are using
   - **Router** (CHECK THIS) Enter the first (0.1) IP address for the router interface
 
-4) Ensure Communication Across the LAN
+**4) Ensure Communication Across the LAN**
 
 *Objective of this step* - Making sure that you can communicate across the individual LANS with the other computer that is a part of it
 
@@ -80,7 +80,7 @@ The objective of this project was to create two separate LANS that can communica
   - Check to make sure you inputted the right IP addresses
   - Ensure the switch is turned on 
 
-5) Set up a WebServer
+**5) Set up a WebServer**
 
 *Objective of this step* - Configuring one laptop to function as the webserver
 
@@ -99,7 +99,7 @@ The objective of this project was to create two separate LANS that can communica
   - Disable firewalls
   - Or add a firewall to allow ICMP 
 
-6) Set up a DNS
+**6) Set up a DNS**
 
 *Objective of this step* - Create a server that maps domain names to IP Addresses. This way users can access a website by a domain name (I.E. example.com) instead of having to manualy type the IP address
 
@@ -109,14 +109,14 @@ The objective of this project was to create two separate LANS that can communica
     - example.com
   - IPv4: Ip address of the laptop now designated as a DNS server
 
-7) Make sure that you can access the webpage through the domain name
+**7) Make sure that you can access the webpage through the domain name**
 
 *Objectives of this step* - Make sure that you can access the webpage, both from IP address as well as the domain name 
 
    - Open a browser and first input the IP address to make sure you can access it through IP (on the webserver)
    - After confirming this, see if you can (on the webserver) type in the domain name that you assigned and make sure you can access this
 
-8) Connect to the router
+**8) Connect to the router**
 
 *Objective of this step* - set the router so that the LANs can communicate with each other
 
@@ -134,7 +134,7 @@ The objective of this project was to create two separate LANS that can communica
   - Install the driver for Serial Adapter
   - Open terminal and 
 
-9) Communicate with the other LAN
+**9) Communicate with the other LAN**
 
 *Objectives of this steps* - Test communication and make sure everything is set up correctly
 
