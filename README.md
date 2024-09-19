@@ -54,12 +54,12 @@ The objective of this project was to create two separate LANS that can communica
 
   - When creating a LAN, you will have to create unique IP Addresses within the subnet range that we define. For LAN 1 we will be using 192.168.0.0/24 and for LAN 2 172.16.0.0/16. The first step in this process is determining the Subnet Range and available IP Range (below)
 *LAN 1*
-  - SUBNET MASTK - 255.255.255.192
+  - SUBNET MASK - 255.255.255.192
   - Available IP Range - 192.168.0.1 to 192.168.0.254 (192.168.0.1 is reserved for the router AKA the default gateway)
   - the /24 subnet allows for 254 usable IP addresses which increases network efficiency since its a smaller LAN
 
 *LAN 2*
-  - SUBNET MASTK - 255.255.255.0
+  - SUBNET MASK - 255.255.255.0
   - Available IP Range - 172.16.0.0 to 172.31.255.255 (172.16.0.1 is reserved for the router AKA the default gateway)
   - the /16 allows for 65,534 IP addresses, giving experience working with a larger LAN as well
 
