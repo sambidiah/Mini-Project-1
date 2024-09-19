@@ -11,7 +11,7 @@ The objective of this project was to create two separate LANS that can communica
 1) The first use case would be for a Network administator to better understand how everything is connected together between the lab and the datacenter if they have to troubleshoot or make a new addition to the system
 2) The second use case would be that this system now has a design for a Network Administrator to recreate it. Should there be another lab (such as the bloomberg lab) they would be able to understand the necessary links quicker than if they did not have a framework
 3) Educational Environments - This framework can be used in class rooms to either set up a basic network or teach students how to set up a basic one
-4) Small Businesses - This framework provides a step by step guide on how to create and connect two separate lans together for business owners who might not have a lot of experience in this field
+4) Small Businesses - This framework provides a step by step guide on how to create and connect two separate LANS together for business owners who might not have a lot of experience in this field
 
 ### Detailed Step by Step Set up
 
